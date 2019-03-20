@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Your Details</legend>
+        <label for="name">Name: <input type="text" name="user"/></label>
+        <br />
+        <label for="email">Email: <input type="text" name="email"/></label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Your Review</legend>
+        <p>How did you hear about us?</p>
+        <select name="services" id="">
+          <option value="google">Google</option>
+          <option value="twitter">Twitter</option>
+          <option value="facebook">Facebook</option>
+          <option value="instagram">Instagram</option>
+        </select>
+        <br />
+        <p>Would you visit again?</p>
+        <label> <input type="radio" name="revisit" value="yes" />Yes </label>
+        <label> <input type="radio" name="revisit" value="no" />No </label>
+        <label> <input type="radio" name="revisit" value="maybe" />Maybe</label>
+        <p>Comments</p>
+        <textarea
+          name="comments"
+          cols="30"
+          rows="10"
+          placeholder="Write your review here"
+        ></textarea>
+        <br />
+        <input type="checkbox" checked />
+        Sign me up for email updates
+        <br />
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
